@@ -1,5 +1,12 @@
 # ENI Universal Audit Tool v6.3
 
+**Support the project**  
+If you find this tool useful, you can support its development by sending a donation:
+
+**USDT (TRC20):** `TTQJJGoqGX3zxSKZX6ZfZVGexS3jjZ8C4m`
+
+---
+
 **ENI Universal Audit Tool** is a high-performance, asynchronous network scanner and exploitation framework designed for IoT device discovery, banner grabbing, architecture detection, brute‑force attacks, and automated payload deployment (miner or botnet). It supports IPv4 and IPv6, multiple protocols (SSH, FTP, HTTP/HTTPS, SNMP, mDNS, SSDP), and includes advanced features like resume scanning, encrypted credential storage, rate limiting, and flexible output formats.
 
 ---
@@ -280,3 +287,14 @@ Contributions are welcome. Please open an issue or submit a pull request on the 
 ## Contact
 
 For questions or support, please open an issue on the GitHub repository.
+
+---
+
+## Support the Project
+
+If you find this tool useful, you can support its development by sending a donation:
+
+**USDT (TRC20):** `TTQJJGoqGX3zxSKZX6ZfZVGexS3jjZ8C4m`
+
+Thank you!
+```
